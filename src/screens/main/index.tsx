@@ -3,7 +3,9 @@ import { Screen } from "app/layout/Screen";
 export const MainScreen = () => {
   return (
     <Screen>
-      <h1>Hi</h1>
+      <div className="rounded bg-slate-100">
+        <h1 className="text-3xl font-bold underline">Hi</h1>
+      </div>
     </Screen>
   );
 };
